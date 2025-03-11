@@ -1,0 +1,312 @@
+[
+  {
+    "address": {
+      "city": "Boston",
+      "countryRegion": "US",
+      "id": 1,
+      "postalCode": "02122",
+      "stateProvince": "Massachusetts",
+      "street": "999 Croissant Bl"
+    },
+    "email": "lucas.bill@example.com",
+    "id": 1,
+    "name": "Lucas Bill",
+    "orders": [
+      {
+        "carrier": "ups",
+        "createdAt": "2020-08-04",
+        "customerId": 1,
+        "id": 19,
+        "shippingCost": 2,
+        "trackingId": "1Z881F5V0397269080"
+      },
+      {
+        "carrier": "ups",
+        "createdAt": "2020-08-01",
+        "customerId": 1,
+        "id": 20,
+        "shippingCost": 1,
+        "trackingId": "1Z4V180W0324616505"
+      }
+    ]
+  },
+  {
+    "address": {
+      "city": "Round Rock",
+      "countryRegion": "US",
+      "id": 2,
+      "postalCode": "78664",
+      "stateProvince": "Texas",
+      "street": "1111 Dell Way"
+    },
+    "email": "mandy.jones@example.com",
+    "id": 2,
+    "name": "Mandy Jones",
+    "orders": [
+      {
+        "carrier": "ups",
+        "createdAt": "2020-08-04",
+        "customerId": 2,
+        "id": 8,
+        "shippingCost": 3,
+        "trackingId": "1Z4V180W0324616505"
+      },
+      {
+        "carrier": "ups",
+        "createdAt": "2020-08-01",
+        "customerId": 2,
+        "id": 14,
+        "shippingCost": 2,
+        "trackingId": "1Z4V180W0324616505"
+      }
+    ]
+  },
+  {
+    "address": {
+      "city": "London",
+      "countryRegion": "UK",
+      "id": 3,
+      "postalCode": "EI 6AN",
+      "stateProvince": "Middlesex",
+      "street": "555 Silly Wy"
+    },
+    "email": "salim.ali@example.com",
+    "id": 3,
+    "name": "Salim Ali",
+    "orders": [
+      {
+        "carrier": "ups",
+        "createdAt": "2020-08-01",
+        "customerId": 3,
+        "id": 6,
+        "shippingCost": 3,
+        "trackingId": "1Z4V180W0324616505"
+      },
+      {
+        "carrier": "ups",
+        "createdAt": "2020-08-05",
+        "customerId": 3,
+        "id": 15,
+        "shippingCost": 1,
+        "trackingId": "1Z881F5V0397269080"
+      }
+    ]
+  },
+  {
+    "address": {
+      "city": "Edinburgh",
+      "countryRegion": "UK",
+      "id": 4,
+      "postalCode": "EH1 1DR",
+      "stateProvince": "Midlothian",
+      "street": "777 Highlands Dr"
+    },
+    "email": "jane.xiu@example.com",
+    "id": 4,
+    "name": "Jane Xiu",
+    "orders": [
+      {
+        "carrier": "ups",
+        "createdAt": "2020-08-05",
+        "customerId": 4,
+        "id": 1,
+        "shippingCost": 3,
+        "trackingId": "1Z881F5V0397269080"
+      },
+      {
+        "carrier": "ups",
+        "createdAt": "2020-08-02",
+        "customerId": 4,
+        "id": 7,
+        "shippingCost": 1,
+        "trackingId": "1Z881F5V0397269080"
+      }
+    ]
+  },
+  {
+    "address": {
+      "city": "Miami",
+      "countryRegion": "US",
+      "id": 5,
+      "postalCode": "33122",
+      "stateProvince": "Florida",
+      "street": "111 Main St"
+    },
+    "email": "john.doe@example.com",
+    "id": 5,
+    "name": "John Doe",
+    "orders": [
+      {
+        "carrier": "ups",
+        "createdAt": "2020-08-06",
+        "customerId": 5,
+        "id": 13,
+        "shippingCost": 3,
+        "trackingId": "1Z881F5V0397269080"
+      },
+      {
+        "carrier": "ups",
+        "createdAt": "2020-08-02",
+        "customerId": 5,
+        "id": 16,
+        "shippingCost": 2,
+        "trackingId": "1Z4V180W0324616505"
+      }
+    ]
+  },
+  {
+    "address": {
+      "city": "San Francisco",
+      "countryRegion": "US",
+      "id": 6,
+      "postalCode": "94016",
+      "stateProvince": "California",
+      "street": "222 Side St"
+    },
+    "email": "jane.smith@example.com",
+    "id": 6,
+    "name": "Jane Smith",
+    "orders": [
+      {
+        "carrier": "ups",
+        "createdAt": "2020-08-02",
+        "customerId": 6,
+        "id": 2,
+        "shippingCost": 3,
+        "trackingId": "1Z4V180W0324616505"
+      },
+      {
+        "carrier": "ups",
+        "createdAt": "2020-08-06",
+        "customerId": 6,
+        "id": 18,
+        "shippingCost": 1,
+        "trackingId": "1Z4V180W0324616505"
+      }
+    ]
+  },
+  {
+    "address": {
+      "city": "New York",
+      "countryRegion": "US",
+      "id": 7,
+      "postalCode": "10025",
+      "stateProvince": "New York",
+      "street": "444 Right Cir"
+    },
+    "email": "sandeep.bhushan@example.com",
+    "id": 7,
+    "name": "Sandeep Bhushan",
+    "orders": [
+      {
+        "carrier": "ups",
+        "createdAt": "2020-08-07",
+        "customerId": 7,
+        "id": 11,
+        "shippingCost": 2,
+        "trackingId": "1Z881F5V0397269080"
+      },
+      {
+        "carrier": "ups",
+        "createdAt": "2020-08-03",
+        "customerId": 7,
+        "id": 17,
+        "shippingCost": 1,
+        "trackingId": "1Z881F5V0397269080"
+      }
+    ]
+  },
+  {
+    "address": {
+      "city": "Seattle",
+      "countryRegion": "US",
+      "id": 8,
+      "postalCode": "98115",
+      "stateProvince": "Washington",
+      "street": "888 Rainy Ct"
+    },
+    "email": "george.han@example.com",
+    "id": 8,
+    "name": "George Han",
+    "orders": [
+      {
+        "carrier": "ups",
+        "createdAt": "2020-08-03",
+        "customerId": 8,
+        "id": 4,
+        "shippingCost": 2,
+        "trackingId": "1Z4V180W0324616505"
+      },
+      {
+        "carrier": "ups",
+        "createdAt": "2020-08-07",
+        "customerId": 8,
+        "id": 9,
+        "shippingCost": 3,
+        "trackingId": "1Z881F5V0397269080"
+      }
+    ]
+  },
+  {
+    "address": {
+      "city": "Chicago",
+      "countryRegion": "US",
+      "id": 9,
+      "postalCode": "60617",
+      "stateProvince": "Illinois",
+      "street": "333 Left Ave"
+    },
+    "email": "asha.kumari@example.com",
+    "id": 9,
+    "name": "Asha Kumari",
+    "orders": [
+      {
+        "carrier": "ups",
+        "createdAt": "2020-08-09",
+        "customerId": 9,
+        "id": 10,
+        "shippingCost": 1,
+        "trackingId": "1Z4V180W0324616505"
+      },
+      {
+        "carrier": "ups",
+        "createdAt": "2020-08-03",
+        "customerId": 9,
+        "id": 12,
+        "shippingCost": 3,
+        "trackingId": "1Z4V180W0324616505"
+      }
+    ]
+  },
+  {
+    "address": {
+      "city": "Delhi",
+      "countryRegion": "IN",
+      "id": 10,
+      "postalCode": "110001",
+      "stateProvince": "Delhi",
+      "street": "666 Connaught Cir"
+    },
+    "email": "salma.khan@example.com",
+    "id": 10,
+    "name": "Salma Khan",
+    "orders": [
+      {
+        "carrier": "ups",
+        "createdAt": "2020-08-04",
+        "customerId": 10,
+        "id": 3,
+        "shippingCost": 1,
+        "trackingId": "1Z881F5V0397269080"
+      },
+      {
+        "carrier": "ups",
+        "createdAt": "2020-08-10",
+        "customerId": 10,
+        "id": 5,
+        "shippingCost": 2,
+        "trackingId": "1Z881F5V0397269080"
+      }
+    ]
+  }
+]
