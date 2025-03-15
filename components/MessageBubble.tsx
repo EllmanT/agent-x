@@ -30,6 +30,7 @@ const formatMessage = (content:string):string=>{
 function MessageBubble({ content, isUser }: MessageBubbleProps) {
   const { user } = useUser();
 
+  formatMessage(content);
   return (
     <div className={`flex ${isUser ? "justify-end" : "justify-start"}`}>
       <div

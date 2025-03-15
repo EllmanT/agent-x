@@ -6,7 +6,7 @@ function WelcomeMessage() {
     <div className="bg-white rounded-2xl shadow-lg ring-1 ring-gray-200 px-8 py-6 max-w-lg w-full text-center">
         <h2 className="text-2xl font-bold text-gray-900 mb-3">🚀 Welcome to Agent X!</h2>
         <p className="text-gray-700 mb-4 leading-relaxed">
-            I'm here to assist you with a range of tasks, including:
+            I&apos;m here to assist you with a range of tasks, including:
         </p>
         <ul className="space-y-3 text-gray-700 text-left">
             <li className="flex items-center gap-2">
@@ -23,7 +23,7 @@ function WelcomeMessage() {
             </li>
         </ul>
         <p className="text-gray-700 mt-5 leading-relaxed">
-            Feel free to ask me anything—I'm here to help! 🤖✨
+            Feel free to ask me anything—I&apos;m here to help! 🤖✨
         </p>
     </div>
 </div>

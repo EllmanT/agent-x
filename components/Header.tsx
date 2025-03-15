@@ -5,7 +5,7 @@ import { UserButton } from '@clerk/clerk-react'
 import { NavigationContext } from '@/lib/NavigationProvider'
 
 function Header() {
-  const {setIsMobileNavOpen, isMobileNavOpen}= use(NavigationContext)
+  const {setIsMobileNavOpen}= use(NavigationContext)
   return (
    <header className='border-b border-gray-200/50 bg-white/80 backdrop-blur-xl sticky top-3 z-50'>
 <div className='flex items-center justify-between px-4 py-3'>

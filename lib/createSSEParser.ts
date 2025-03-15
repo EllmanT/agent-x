@@ -29,6 +29,7 @@ export const createSSEParser = ()=>{
                 const parsed = JSON.parse(data) as StreamMessage;
                 return  Object.values(StreamMessageType).includes(parsed.type)?parsed:null;
             } catch (error) {
+                console.log(error)
                 return{
                     type:StreamMessageType.Error,
                     error:"Failed to parse SSE message",

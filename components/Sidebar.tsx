@@ -44,7 +44,7 @@ closeMobileNav();
         isMobileNavOpen && (
             <div
             className='fixed inset-0 bg-black/20 z-40 md:hidden'
-            onClick={closeMobileNav}
+            onClick={handleClick}
             />
         )
     }
