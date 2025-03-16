@@ -24,8 +24,8 @@ function page() {
   
           {/* Description */}
           <p className="text-gray-600 max-w-md mx-auto text-lg leading-relaxed">
-            Start a new conversation or continue where you left off.{" "}
-            <span className="text-gray-900 font-medium">Agent X</span> is here to assist with any task, anytime.
+            Start a new experience or continue where you left off.{" "}
+            <span className="text-gray-900 font-bold">Temba</span> is here to assist with any task, anytime.
           </p>
   
           {/* Features Section */}

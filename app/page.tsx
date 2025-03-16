@@ -21,7 +21,7 @@ export default function Home() {
   
   {/* Main "X" */}
   <span className="text-8xl sm:text-9xl font-extrabold text-gray-400 drop-shadow-lg">
-    X
+    Temba
   </span>
 </h1>
 
@@ -85,7 +85,7 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-16 pt-10 max-w-4xl mx-auto">
   {[
     { title: "⚡ Fast", description: "Real-time streamed responses" },
-    { title: "🚀 Modern", description: "Built with Next.js 15, Convex, and Clerk" },
+    { title: "🚀 Modern", description: "Built with the latest technologies" },
     { title: "🧠 Smart", description: "Powered by top-tier LLMs for intelligent responses" },
   ].map(({ title, description }) => (
     <div key={title} className="text-center bg-white shadow-md rounded-2xl p-6 ring-1 ring-gray-200">
