@@ -30,7 +30,7 @@ const formatMessage = (content:string):string=>{
 function MessageBubble({ content, isUser }: MessageBubbleProps) {
   const { user } = useUser();
 
-  formatMessage(content);
+  // formatMessage(content);
   return (
     <div className={`flex ${isUser ? "justify-end" : "justify-start"}`}>
       <div
@@ -41,8 +41,9 @@ function MessageBubble({ content, isUser }: MessageBubbleProps) {
         }`}
       >
         <div className="whitespace-pre-wrap text-[15px] leading-relative">
-          {/* Render Markdown Content */}
-          <ReactMarkdown remarkPlugins={[remarkGfm]}>{content}</ReactMarkdown>
+          {/* Render Markdown Content
+          <ReactMarkdown remarkPlugins={[remarkGfm]}>{formatMessage(content)}</ReactMarkdown> */}
+          <div dangerouslySetInnerHTML={{__html:formatMessage(content)}}/>
 
           <div
             className={`absolute bottom-0 ${

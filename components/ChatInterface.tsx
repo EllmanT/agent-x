@@ -52,8 +52,8 @@ function ChatInterface({chatId, initialMessages}:ChatInterfaceProps){
             </div>
             <pre class="text-green-400 mt-0.5 whitespace-pre-wrap overflow-x-auto">${formatToolOutput(output)}</pre>
 
-        </div>   `    ;
-        return `----START-----\N${terminalHtml}\n-----END-----`;
+        </div>   `;
+        return `----START-----\n${terminalHtml}\n-----END-----`;
     }
     const messagesEndRef= useRef<HTMLDivElement>(null);
     const processStream = async(
@@ -150,7 +150,7 @@ console.log("response", response)
         // Parse SSE messages from the chunk
         const messages= parser.parse(chunk);
 
-        console.log("messges in stream", messages)
+        console.log("messages in stream", messages)
 
         for (const message of messages){
             switch(message.type){
