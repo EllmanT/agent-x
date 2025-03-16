@@ -1,6 +1,6 @@
 "use client"
-import ReactMarkdown from "react-markdown";
-import remarkGfm from "remark-gfm"; // Enables GitHub-style markdown (bold, tables, etc.)
+// import ReactMarkdown from "react-markdown";
+// import remarkGfm from "remark-gfm"; // Enables GitHub-style markdown (bold, tables, etc.)
 import {Avatar, AvatarFallback, AvatarImage} from "@/components/ui/avatar"
 import { useUser } from '@clerk/clerk-react';
 import { BotIcon } from 'lucide-react';
